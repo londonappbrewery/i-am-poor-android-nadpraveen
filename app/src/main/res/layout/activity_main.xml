@@ -15,6 +15,9 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
         android:text="@string/title"
         android:textSize="50sp"
         android:textStyle="bold" />
@@ -23,6 +26,9 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/coal" />
 </RelativeLayout>
